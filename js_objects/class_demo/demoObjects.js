@@ -125,7 +125,7 @@ for(let key in obj){
     console.log(`key:${key}, value:${obj[key]}`)
 }
 }
-
+if(false){
 // Methods - A method is a property of a object whose value is a function
 
 const petDog={
@@ -157,3 +157,30 @@ petDog.oops=function(){
 petDog.oops();
 
 console.log(Object.keys(petDog));
+
+// let and const on an object and arrays
+// console.log(petDog)
+// petDog=dog; 👈🏻 node will not allow to assign new value to the Object declared with const
+// console.log(petDog)
+}
+
+// this - this is a special keyword 
+// 'this' is a varaible that points to the object that owns the method
+// we use 'this' to share object properties between method of that object.
+ 
+const petDog={
+    name:'Ralph',
+    age:10,
+    bark:function(sound){ //👈🏻First way
+        // On declaration of this object we have defined a bark method. 
+        console.log(`${sound}`)
+        return sound
+    },
+    bork:bork, // 👈🏻Second way
+    myDogName:function(){
+        return `My dog name is ${this.name}`
+    }
+
+}
+
+console.log(petDog.myDogName());
