@@ -1,0 +1,60 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+/* 
+Different type of selectors available in css
+1. Directly HTML Tag
+2. Class
+    Class is denoted by '.' dot notation 
+3. ID: ID is denoted by #
+
+*/
+
+
+/* Example of a class */
+
+.highlight{
+    color:red;
+    text-decoration: underline;
+    border-radius: 3px;
+
+}
+
+#my_id{
+    color: blue;
+    text-decoration: dotted;
+
+}
+
+h1,h2,h3,.heading{
+    color: teal;
+}
+
+div#j890.container{
+    color: brown;
+
+}
+
+article>p{
+
+    color: coral;
+}
+
+ol li:last-child{
+    background-color: blueviolet;
+}
+
+ol li:nth-child(2){
+    background-color: chartreuse;
+}
+a:visited{
+    color: blanchedalmond;
+}
+div:hover{
+    color: blue;
+}
+
+[data-content]{
+    color: blue;
+}

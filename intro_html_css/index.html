@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- This informs the browser that the document is using html 5 - again this is not a tag -->
+<!-- This is a HTML Comment -->
+<!-- 
+
+    <h1 class='title'>Summary</h1>
+
+    HTML TAG: mostly work in pairs
+    Tag is identified with this 👉🏻<>
+    It has an opening tag
+    and a closing
+    Clsoing tag has slash with it 
+ -->
+
+ <!-- All HTML Documents has 3 parts <html> - The root tag of every html document
+ <head> It contains the information of an html document that we are creating
+ <body> It contians the content that we want to display it to user    
+-->
+<!-- 👇🏻These are base tags -->
+<html>
+    <!-- root element, and ancestor of all the elements -->
+    <head>
+    <!-- child (descendent)of 'html' tag -->
+        <title>Cohort Nov 2020</title>
+        <!-- So this title tag is the child tag of head tag -->
+        <link rel='stylesheet' href="./index.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    </head>
+    <body>
+
+        <!-- This body is again a descendent of 'hrml' tag like <head> tag -->
+<!-- Semantic Tag : this give meaning to the portion of a webpage and  is use to organise our html tags  -->
+    <header>
+        <!-- This is just to organise the header of your webpage -->
+
+    </header>
+    <section>
+        <a href='https://www.lipsum.com/' target='_blank'>Lorem Ipusm Site</a>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever <em>since the 1500s</em>, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<strong class="alert alert-primary" > It has survived not only five centuries</strong>, but also the leap into electronic typesetting, remaining essentially unchanged.
+        <div>
+        <q> It was popularised in the 1960s with the release of</q>
+    </div> 
+    Letraset sheets<abbr title='Hypertext Markup Language'> HTML </abbr> containing Lorem Ipsum passages, and more recently <abbr title='Cascading Style Sheets'>CSS</abbr> desktop publishing software<span> like Aldus PageMaker including </span>versions of Lorem Ipsum.
+
+    </section>
+<article>
+    <p>
+    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+    <p>
+     If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p> 
+     <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence <div id="j890" class='container'>structures, to generate Lorem Ipsum which looks reasonable.</div> The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+</article>
+<div>
+    <h1>h1- Is the biggest of all headings</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Hrading 5</h5>
+    <h6>h6- Is the smallest of all heading</h6>
+
+    <strong class='heading'>Grocery List</strong >
+    <!-- we use ul for unordered list -->
+    <ul>
+        <li>Bread</li>
+        <li>Eggs</li>
+        <li>Butter</li>
+        <li>Jam</li>
+    </ul>
+    <img width='200px' height='100px' src='./rose.jpg'/>
+    <img width='200px' height='100px' src='https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?cs=srgb&dl=pexels-secret-garden-931177.jpg&fm=jpg'/>
+    <!-- We use img tag to display internal or external pictures on our page -->
+    <!-- We use ol for ordered list -->
+    Steps to brew
+    <ol>
+        <li>Take instant coffee(teaspoon- size) in a teaspoon in a cup </li>
+        <li>Pour some Hot water</li>
+        <li>Enjoy your coffee</li>
+    </ol>
+
+</div>
+
+<form action='/search' method='get'>
+    <div >
+    <label for='username'>User Name</label>
+    <input type='text' id='username' name='username' placeholder="Input User name here"/>
+    <!-- 👈🏻 This represent self closing tag as we dont have any content to wrap our form tags -->
+</div>
+<div>
+    <label for='password'> Password </label>
+    <input type="password" id='password' name='password'/>
+</div>
+
+<input type="button" value='button'/>
+<input type='submit' 
+value='My Submit Button' />
+</form>
+
+    <footer>
+        <!-- This is again a semantic use to give meaning to the content -->
+        <!-- it usually has  detail related social media srvice of particular company-->
+
+    </footer>
+
+    </body>
+
+</html>

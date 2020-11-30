@@ -1,0 +1,71 @@
+<!-- So there are three different ways to apply css
+1.Inline
+2.InPage
+3.External file
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"
+<title> Trello Board Demo</title>
+<link rel='stylesheet' href="./index.css" />
+
+<style>
+p{
+    font-weight: bold;
+    color: aquamarine;
+}
+/* Style applied with style tag */
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="http://www.nyan.cat">Nyan Cat</a>
+        <a href="">Boards</a>
+        <a href="">Profile</a>
+        <form action='http://www.nyan.cat'>
+        <input type='search' nam='query'/>
+        <input type="submit" value='Search'/>
+        </form>
+    </nav>
+</header>
+<main>
+<section id='starred'>
+    <h1>Starred Boards</h1>
+    <ul>
+        <li>Managment</li>
+        <li style="background-image:url(https://images.pexels.com/photos/566641/pexels-photo-566641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");"> Learning to hack</li>
+    </ul>
+
+</section>
+<section id='personal-boards'>
+    <h1>Personal Boards</h1>
+    <ul>
+        <li style="font-weight:bold; list-style-type:square type square;" >In-line Style</li>
+        <li class='highlight'> Managment</li>
+        <li>
+            <div> Learning to Hack</div>
+            <img width='200px' src="https://images.pexels.com/photos/566641/pexels-photo-566641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" >
+        </li>
+        <li>
+            <div> My Ideas</div>
+            <img width='200px' src="https://images.pexels.com/photos/602794/pexels-photo-602794.jpeg?auto=compress&cs=tinysrgb&h=350">
+        </li>
+        <li>Create New Board...</li>
+    </ul>
+
+
+</section>
+
+</main>
+<p id="my_id">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet finibus tellus, ac ultricies elit. Curabitur dictum ex ac urna fermentum consequat. Mauris sollicitudin quam vel placerat interdum. Donec tincidunt, nunc vitae interdum finibus, odio leo tempor est, fermentum fermentum nibh quam a leo. Nunc mollis bibendum rutrum. Aliquam commodo commodo felis vel eleifend. In auctor nisi quis malesuada laoreet. In sit amet orci aliquam, venenatis tellus sed, consequat risus. Sed eget dolor placerat, placerat ligula vel, consectetur nunc. Pellentesque dapibus sollicitudin turpis vel efficitur. Nunc et metus convallis, imperdiet nisi vel, auctor lectus. Integer lacinia quam ac scelerisque mattis. In at maximus nibh, sed luctus leo. Maecenas at sagittis lectus, id blandit dolor.
+</p>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec mollis ex. In diam est, rhoncus a est at, feugiat vestibulum odio. Integer tincidunt quam a interdum luctus. Donec id luctus lorem. Mauris at orci ante. Phasellus at facilisis quam, et suscipit ligula. Nulla blandit non erat at posuere. Curabitur accumsan vitae arcu id bibendum. Curabitur at nibh justo. Donec gravida ultricies tellus eget luctus. Morbi elementum nibh tellus, ut bibendum enim ornare a. Nullam pellentesque nibh vel lorem volutpat gravida.
+</p>
+
+</bod>
+</html>
